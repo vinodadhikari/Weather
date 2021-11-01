@@ -1,0 +1,15 @@
+.weatherCard {
+  border: 2px darkviolet solid;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 5px 15px;
+  padding: 10px;
+  width: 150px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+}
+
+.h4 {
+  margin-top: 0;
+}

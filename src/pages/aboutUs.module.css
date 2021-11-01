@@ -1,0 +1,20 @@
+.aboutUs {
+  margin: 20px 100px;
+}
+.founderHeading,
+.info {
+  color: white;
+  transition: all 0.5s;
+}
+.founders {
+  display: inline-block;
+  transition: all 0.5s;
+  font-size: 20px;
+  color: rgb(174, 228, 112);
+}
+
+.founders:hover,
+.founderHeading:hover,
+.info:hover {
+  color: rgb(75, 56, 22);
+}

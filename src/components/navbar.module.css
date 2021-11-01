@@ -1,0 +1,39 @@
+li,
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 90px;
+  font-size: 25px;
+}
+
+li a {
+  transition: all 0.5s ease 0.2s;
+}
+
+li a:hover {
+  color: red;
+}

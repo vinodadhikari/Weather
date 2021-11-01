@@ -1,0 +1,36 @@
+.card {
+  border: 2px rgb(255, 166, 0) solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px 60px;
+  padding: 5px;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  border: 2px saddlebrown dashed;
+}
+
+.img {
+  padding: 5px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(36, 231, 140);
+}
+
+.info {
+  font-weight: 600;
+}
+
+.name,
+.info {
+  transition: all 0.3s;
+}
+
+.name:hover,
+.info:hover {
+  color: red;
+}
