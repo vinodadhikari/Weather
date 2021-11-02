@@ -18,7 +18,7 @@ export default function Index() {
     <>
       <div className={styles.home}>
         <div className={styles.input}>
-          <h2 className={styles.h2}>Check Weather of your city</h2>
+          <h2 className={styles.h2}>Check Weather of your city: </h2>
           <input
             className={styles.inputField}
             type="text"

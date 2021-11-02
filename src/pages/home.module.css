@@ -2,19 +2,22 @@
   margin: 20px 100px;
 }
 .h2 {
+  display: inline-block;
   font-size: 20px;
   color: white;
+  text-align: center;
+  margin-right: 10px;
 }
 .input {
-  padding-left: 39%;
+  /* padding-left: 39%; */
   box-sizing: border-box;
 }
 
 .inputField {
+  /* display: inline-block; */
   height: 24px;
   border: 2px rgb(26, 23, 23) solid;
   border-radius: 1px;
-
   margin-right: 2px;
   transition: all 0.5s;
 }
@@ -23,17 +26,8 @@
   background-color: rgb(238, 111, 111);
 }
 
-.inputField,
-.button {
+.inputField {
   background-color: rgb(0, 255, 115);
-}
-.button {
-  height: 30px;
-  border: 2px rgb(26, 23, 23) solid;
-  transition: all 0.5s;
-}
-.button:hover {
-  background-color: rgb(238, 111, 111);
 }
 
 .weatherTiles {
