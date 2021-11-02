@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import AboutUs from './pages/AboutUs';
 import Api from './pages/API';
-import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 
 function App() {
@@ -21,9 +20,6 @@ function App() {
           </Route>
           <Route exact path="/api">
             <Api />
-          </Route>
-          <Route exact path="/dashboard">
-            <Dashboard />
           </Route>
         </Switch>
       </Router>
